@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .contact-list {
+            max-width: 600px;
+            margin: 0 auto;
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-item {
+            background-color: var(--card-bg);
+            margin-bottom: 1rem;
+            padding: 1.25rem 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .contact-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .contact-label {
+            font-weight: bold;
+            color: var(--text-color);
+        }
+
+        .contact-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">GARCIA, CLARK CRISTIAN P.</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Connect With Me</h2>
+            <p style="text-align: center; margin-bottom: 3rem;">Feel free to reach out through any of the platforms
+                below. I am always open to collaborations or discussion!</p>
+
+            <ul class="contact-list">
+                <li class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <a href="mailto:cpgarcia1@fit.edu.ph" class="contact-link">cpgarcia1@fit.edu.ph</a>
+                </li>
+
+                <li class="contact-item">
+                    <span class="contact-label">LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/clark-cristian-garcia-5430b2381/" target="_blank"
+                        class="contact-link">https://www.linkedin.com/in/clark-cristian-garcia-5430b2381/</a>
+                </li>
+
+                <li class="contact-item">
+                    <span class="contact-label">GitHub</span>
+                    <a href="https://github.com/sprkjdnn" target="_blank" class="contact-link">github.com/sprkjdnn</a>
+                </li>
+
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Clark Cristian Garcia. TX02.</p>
+    </footer>
+</body>
+
+</html>
